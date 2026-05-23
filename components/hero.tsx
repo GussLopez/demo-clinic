@@ -46,7 +46,7 @@ export function Hero() {
 
           <div className="mb-10 flex flex-col gap-4 sm:flex-row">
             <Button size="lg" asChild>
-              <Link href="#contato">
+              <Link href="#contacto">
                 Agendar Cita
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>

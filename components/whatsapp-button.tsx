@@ -32,7 +32,7 @@ export function WhatsAppButton() {
           ? "translate-y-0 opacity-100"
           : "translate-y-4 opacity-0 pointer-events-none"
       }`}
-      aria-label="Contato via WhatsApp"
+      aria-label="contacto via WhatsApp"
     >
       <MessageCircle className="h-7 w-7 sm:h-8 sm:w-8" />
       <span className="absolute -top-2 -right-2 flex h-5 w-5 items-center justify-center rounded-full bg-red-500 text-xs font-bold">

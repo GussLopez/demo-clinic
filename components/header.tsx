@@ -10,8 +10,8 @@ const navLinks = [
   { href: "#servicos", label: "Servicios" },
   { href: "#sobre", label: "Sobre" },
   { href: "#horarios", label: "Horarios" },
-  { href: "#localizacao", label: "Localización" },
-  { href: "#contato", label: "Contacto" },
+  { href: "#localizacion", label: "Localización" },
+  { href: "#contacto", label: "Contacto" },
 ];
 
 export function Header() {
@@ -66,7 +66,7 @@ export function Header() {
               (11) 99999-9999
             </a>
             <Button asChild>
-              <Link href="#contato">Agendar Cita</Link>
+              <Link href="#contacto">Agendar Cita</Link>
             </Button>
           </div>
 
@@ -106,7 +106,7 @@ export function Header() {
                 (11) 99999-9999
               </a>
               <Button asChild className="w-full">
-                <Link href="#contato" onClick={() => setIsMenuOpen(false)}>
+                <Link href="#contacto" onClick={() => setIsMenuOpen(false)}>
                   Agendar Cita
                 </Link>
               </Button>
